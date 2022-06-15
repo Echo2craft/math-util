@@ -29,7 +29,7 @@ public class Main {
         //KI VONG: MONG HAM SE TRA VE VALUE NAO DO UNG VOI INPUT O TREN
         //SO SANH DE XEM KET QUA CO NHU KI VONG HAY KO
         String expected = "120";// t ki vong ham oi ra 120 neu tinh 5!
-        int n = 5;          // input
+        int n = 20;          // input
         long actual = MathUtility.getFactorial(n);
         System.out.println( n + "! = " + expected + " expected");
         System.out.println( n + "! = " + actual + " actual");
